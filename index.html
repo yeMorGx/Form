@@ -10,8 +10,7 @@
 
 <body>
     <div class="container">
-        <h1>Torcedor Fanático</h1>  
-        <p>Formulário para você, torcedor, queremos saber mais sobre você!</p> 
+        <h1>Torcedor Fanático</h1>   
     <form action="#">
         <label for="Time">Qual é o seu time do coração?</label>
         <select name="Time" id="Time" required> 
@@ -39,16 +38,16 @@
         </select>
         
         <label for="name">Nome completo:</label>
-            <input type="text" id="name" name="name" placeholder="Digite seu Vulgo" required>
+            <input type="text" id="name" name="name" placeholder="Digite seu vulgo" required>
 
         <label for="CPF">CPF:</label>
             <input type="text" id="CPF" name="CPF" placeholder="000.000.000-00" required>
 
         <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-mail" required>
 
         <label for="p1">A quanto tempo você é sócio?</label>
-            <input type="text" id="p1" name="p1" required>
+            <input type="text" id="p1" name="p1" placeholder="Estou a..." required>
 
         <label>Você costuma frequentar estádio?</label>
             <div class="radio-group">
@@ -57,14 +56,17 @@
                 <label><input type="radio" name="radio-group" value="radio-group">Nunca fui</label>
             </div>  
 
-        <label for="p2">Qual é a frequência?</label>
-            <input type="text" id="p2" name="p2" required>
+        <label for="p2">Em qual frequência?</label>
+            <input type="text" id="p2" name="p2" placeholder="..." required>
 
         <label for="p3">Está satisfeito com o pacote de Sócio Torcedor?</label>
-            <input type="text" id="p3" name="p3" required>
+            <input type="text" id="p3" name="p3" placeholder="..." required>
 
-            
-
+            <label>Você tem camisa oficial?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="radio-group" value="radio-group">Sim</label>
+                <label><input type="radio" name="radio-group" value="radio-group">Não</label>
+                
         <button type="submit">Enviar</button>
 
     
@@ -74,16 +76,18 @@
 
 </body>
 
-<footer>
-    <p>Nos siga nas Redes Sociais</p>
+<footer class="rodape">
+    <p class="sociais">Nos siga nas Redes Sociais</p>
     
-    <a href="">
+    <a href="#">
     <i class="fa-brands fa-tiktok"></i>
     </a>
     
-    <a href="">
+    <a href="#">
     <i class="fa-brands fa-instagram"></i>
     </a>
+    
+    <p class="desenvolvido">Desenvolvido Por Erick e Gabriel M.</p>
 </footer>
 
 </html>

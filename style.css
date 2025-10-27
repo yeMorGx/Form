@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=DM+Serif+Display:ital@0;1&family=Gravitas+One&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Gravitas+One&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +13,13 @@ body {
     line-height: 1.6;
     padding: 20px;
     display: flex;
-    
-
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/vvZQmlz.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
 .container {
     display: flex;
@@ -19,11 +27,107 @@ body {
     padding: 40px 60px;
     max-width: 600px;
     background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px 50px;
+    border-radius: 32px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-footer i {
+.container h1 {
+    text-align: center;
     color: rgb(0, 87, 128);
+    margin-bottom: -10px;
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-size: 55px;
+}
+.formu {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: black;
+    font-family: "DM Serif Display", serif;
+    margin: 0;
+
+}
+
+button{
+
+    background-color: #1673a1;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #72ccf3;
+    transition: 0.1s ease-in-out;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #666;
+    padding: 0;
+}
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 6px 6px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: 6px;
+    margin: 0;
+    outline: none;
+}
+input[type="text"], input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin: 0;
+}
+
+a {
     text-decoration: none;
+}
+
+footer i {
+    color: rgb(0, 0, 0);
+
+}
+.desenvolvido {
+    margin: 0;
+    padding: 10px;
+    font-size: 10px;
+    text-decoration: underline ;
+}
+
+
+.rodape {
+    margin: 0;
+}
+
+.sociais {
+    margin-top: 30px;
+    margin-bottom:5px;
+    font-size: 15px;
+    color: #666;
+    padding: 0;
 }
