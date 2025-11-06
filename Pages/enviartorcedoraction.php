@@ -16,12 +16,3 @@ echo "<p>Frequência: " . $frequencia . "</p>";
 
 $sociotorcedor = isset($_POST['p4']) ? $_POST['p4'] : 'Não';
 echo "<p>Está satisfeito com o pacote de Sócio Torcedor: " . $sociotorcedor . "</p>";
-
-
-
-
-
-
-
-
-?>
